@@ -1,4 +1,4 @@
-# Uber - Under construction
+# Uber
 ## Summary of Uber data analysis
 ### Problematic analyzed
 The analysis focused on evaluating the usage patterns and trends of Uber services in New York City during the first half of 2015. The objective was to understand how ride requests varied according to different temporal and geographical factors to optimize resource allocation and improve operational efficiency.
