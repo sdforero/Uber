@@ -4,11 +4,10 @@
 The analysis focused on evaluating the usage patterns and trends of Uber services in New York City during the first half of 2015. The objective was to understand how ride requests varied according to different temporal and geographical factors to optimize resource allocation and improve operational efficiency.
 
 ### Technologies used
-- Technologies and Functions Used
 - Pandas: For data manipulation and cleaning.
 - Numpy: For numerical operations.
-- Seaborn and Matplotlib: For data visualization.
-- Plotly and Folium: For interactive graphs and heat map creation.
+- Seaborn and matplotlib: For data visualization.
+- Plotly and folium: For interactive graphs and heat map creation.
 
 ### Key functions:
 - pd.read_csv(): For reading CSV files.
@@ -32,6 +31,6 @@ The analysis focused on evaluating the usage patterns and trends of Uber service
 |![Imagen5](https://github.com/sdforero/Uber/blob/main/UberTripsMonthDay.png)|![Imagen6](https://github.com/sdforero/Uber/blob/main/UberVehiclesBasenumber.png)
 
 ### Analysis conclusions
-- Temporal Distribution: The months with the highest activity were June and May, while January had the lowest number of trips.
-- Weekly and Hourly Patterns: Weekends showed a significant increase in the number of trips, especially during nights and early mornings. Weekdays had activity peaks during the morning and evening rush hours.
-- Dispatch Bases: The base with the highest number of active vehicles was identified, which can be useful for planning resource distribution and improving service.
+- Temporal distribution: The months with the highest activity were June and May, while January had the lowest number of trips.
+- Weekly and hourly patterns: Weekends showed a significant increase in the number of trips, especially during nights and early mornings. Weekdays had activity peaks during the morning and evening rush hours.
+- Dispatch bases: The base with the highest number of active vehicles was identified, which can be useful for planning resource distribution and improving service.
