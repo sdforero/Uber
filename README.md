@@ -30,13 +30,6 @@ The analysis focused on evaluating the usage patterns and trends of Uber service
 |![Imagen3](https://github.com/sdforero/Uber/blob/main/UberTripsHourDayweek.png)|![Imagen4](https://github.com/sdforero/Uber/blob/main/UberTripsMonth.png)
 |![Imagen5](https://github.com/sdforero/Uber/blob/main/UberTripsMonthDay.png)|![Imagen6](https://github.com/sdforero/Uber/blob/main/UberVehiclesBasenumber.png)
 
-### Visualization 1
-|---|---|
-| ![Image description1](https://github.com/sdforero/Uber/blob/main/UberHeatmapNY.png) | ![Image description2](https://github.com/sdforero/Uber/blob/main/UberRushDayHour.png) |
-| Row 2, Column 1 | Row 2, Column 2 |
-| Row 3, Column 1 | Row 3, Column 2 |
-
-
 ### Analysis conclusions
 - Temporal distribution: The months with the highest activity were June and May, while January had the lowest number of trips.
 - Weekly and hourly patterns: Weekends showed a significant increase in the number of trips, especially during nights and early mornings. Weekdays had activity peaks during the morning and evening rush hours.
