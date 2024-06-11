@@ -31,11 +31,11 @@ The analysis focused on evaluating the usage patterns and trends of Uber service
 |![Imagen5](https://github.com/sdforero/Uber/blob/main/UberTripsMonthDay.png)|![Imagen6](https://github.com/sdforero/Uber/blob/main/UberVehiclesBasenumber.png)
 
 ### Visualization 1
+| Column 1 | Column 2 |
 |---|---|
-|![\Imagen1](https://github.com/sdforero/Uber/blob/main/UberHeatmapNY.png)|\![\Imagen2](https://github.com/sdforero/Uber/blob/main/UberRushDayHour.png)|
-|---|---|
-|![\Imagen3](https://github.com/sdforero/Uber/blob/main/UberTripsHourDayweek.png)|\![\Imagen4](https://github.com/sdforero/Uber/blob/main/UberTripsMonth.png)|
-|![\Imagen5](https://github.com/sdforero/Uber/blob/main/UberTripsMonthDay.png)|\![\Imagen6](https://github.com/sdforero/Uber/blob/main/UberVehiclesBasenumber.png)|
+| Row 1, Column 1 | Row 1, Column 2 |
+| Row 2, Column 1 | Row 2, Column 2 |
+| Row 3, Column 1 | Row 3, Column 2 |
 
 
 ### Analysis conclusions
