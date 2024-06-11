@@ -32,7 +32,7 @@ The analysis focused on evaluating the usage patterns and trends of Uber service
 
 ### Visualization 1
 |---|---|
-| Row 1, Column 1 | Row 1, Column 2 |
+| ![Image description1](https://github.com/sdforero/Uber/blob/main/UberHeatmapNY.png) | ![Image description2](https://github.com/sdforero/Uber/blob/main/UberRushDayHour.png) |
 | Row 2, Column 1 | Row 2, Column 2 |
 | Row 3, Column 1 | Row 3, Column 2 |
 
