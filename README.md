@@ -4,18 +4,18 @@
 The analysis focused on evaluating the usage patterns and trends of Uber services in New York City during the first half of 2015. The objective was to understand how ride requests varied according to different temporal and geographical factors to optimize resource allocation and improve operational efficiency.
 
 ### Technologies used
-Technologies and Functions Used
-Pandas: For data manipulation and cleaning.
-Numpy: For numerical operations.
-Seaborn and Matplotlib: For data visualization.
-Plotly and Folium: For interactive graphs and heat map creation.
+- Technologies and Functions Used
+- Pandas: For data manipulation and cleaning.
+- Numpy: For numerical operations.
+- Seaborn and Matplotlib: For data visualization.
+- Plotly and Folium: For interactive graphs and heat map creation.
 
-### Key Functions:
-pd.read_csv(): For reading CSV files.
-pd.to_datetime(): For converting dates to datetime type.
-pivot = pd.crosstab(): For creating pivot tables.
-groupby(): For data grouping.
-sns.pointplot(), plt.figure(), px.box(), px.violin(): For creating various types of graphs.
+### Key functions:
+- pd.read_csv(): For reading CSV files.
+- pd.to_datetime(): For converting dates to datetime type.
+- pivot = pd.crosstab(): For creating pivot tables.
+- groupby(): For data grouping.
+- sns.pointplot(), plt.figure(), px.box(), px.violin(): For creating various types of graphs.
 
 ### Steps followed for data analysis
 1. Importing Libraries: Libraries such as pandas, numpy, seaborn, matplotlib, plotly, and folium were utilized for data manipulation, visualization, and the creation of interactive maps.
