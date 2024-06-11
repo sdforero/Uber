@@ -1,13 +1,28 @@
 # Uber - Under construction
 ## Summary of Uber data analysis
 ### Problematic analyzed
+The analysis focused on evaluating the usage patterns and trends of Uber services in New York City during the first half of 2015. The objective was to understand how ride requests varied according to different temporal and geographical factors to optimize resource allocation and improve operational efficiency.
 
 ### Technologies used
+Technologies and Functions Used
+Pandas: For data manipulation and cleaning.
+Numpy: For numerical operations.
+Seaborn and Matplotlib: For data visualization.
+Plotly and Folium: For interactive graphs and heat map creation.
 
-### Functions used
+### Key Functions:
+pd.read_csv(): For reading CSV files.
+pd.to_datetime(): For converting dates to datetime type.
+pivot = pd.crosstab(): For creating pivot tables.
+groupby(): For data grouping.
+sns.pointplot(), plt.figure(), px.box(), px.violin(): For creating various types of graphs.
 
 ### Steps followed for data analysis
-
+1. Importing Libraries: Libraries such as pandas, numpy, seaborn, matplotlib, plotly, and folium were utilized for data manipulation, visualization, and the creation of interactive maps.
+2. Data Extraction: Multiple CSV files containing Uber trip data were accessed, specifically selecting "uber-raw-data-janjune-15_sample.csv" and "Uber-Jan-Feb-FOIL.csv".
+3. Data Cleaning: Duplicates were removed, and data types were verified for consistency. For example, the 'Pickup_date' column was converted from object type to datetime.
+4. Data Transformation: Additional columns were added to facilitate analysis, such as month, day of the week, and hour.
+5. Descriptive Analysis: Pivot tables and graphs were constructed to visualize the distribution of trips according to the day of the week, hour, and month. The number of active vehicles by dispatch base was also evaluated.
 
 ### Visualization 
 |----|----|
@@ -17,4 +32,6 @@
 |![Imagen5](https://github.com/sdforero/Uber/blob/main/UberTripsMonthDay.png)|![Imagen6](https://github.com/sdforero/Uber/blob/main/UberVehiclesBasenumber.png)
 
 ### Analysis conclusions
-
+- Temporal Distribution: The months with the highest activity were June and May, while January had the lowest number of trips.
+- Weekly and Hourly Patterns: Weekends showed a significant increase in the number of trips, especially during nights and early mornings. Weekdays had activity peaks during the morning and evening rush hours.
+- Dispatch Bases: The base with the highest number of active vehicles was identified, which can be useful for planning resource distribution and improving service.
